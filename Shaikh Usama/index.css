@@ -1,0 +1,9 @@
+.box-model {
+  text-align: center;
+  height: 300px;
+  width: 600px;
+  padding: 20px;
+  background-color: lightgrey;
+  border: 5px solid rebeccapurple;
+  margin: 20px 25px;
+}
