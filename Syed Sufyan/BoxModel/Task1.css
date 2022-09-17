@@ -1,0 +1,19 @@
+.standard{
+ background-color:lightgray ;
+ border: 5px solid rebeccapurple;
+ height: 150px;
+ width: 300px;   
+ margin: 20px;
+ padding: 20px;
+ 
+}
+.alternate{
+ background-color:lightgray ;
+ border: 5px solid rebeccapurple;
+ height: 150px;
+ width: 300px;
+ margin: 20px;
+ padding: 20px;
+
+ 
+}
