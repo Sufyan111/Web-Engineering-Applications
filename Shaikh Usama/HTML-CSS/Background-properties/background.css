@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+.child {
+  background-image: url(https://www.daysoftheyear.com/cdn-cgi/image/dpr=1%2Cf=auto%2Cfit=cover%2Cheight=675%2Cmetadata=none%2Conerror=redirect%2Cq=85%2Cwidth=1200/wp-content/uploads/superman-day1-scaled.jpg);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #b1b2ff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* position: absolute; */
+  /* right: 33%; */
+  /* bottom: 25%; */
+  height: 50vh;
+  width: 100vw;
+}
+
+.child2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #790252;
+  /* position: absolute; */
+  /* right: 33%; */
+  /* bottom: 20%; */
+  height: 50vh;
+  width: 100vw;
+}

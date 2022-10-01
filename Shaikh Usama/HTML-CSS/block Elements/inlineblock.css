@@ -1,0 +1,29 @@
+* {
+  background-color: cadetblue;
+}
+
+h1 {
+  background-color: goldenrod;
+  display: inline;
+  /* width: 500px; */
+}
+
+/* use display inline-block to convert block elements to inline and vice versa, 
+    which enalble us to use height and width properties */
+.h2 {
+  background-color: aquamarine;
+  background-color: blueviolet;
+  display: inline-block;
+  /* width: 500px; */
+}
+
+.span1 {
+  background-color: red;
+  display: block;
+}
+
+.span2 {
+  background-color: blue;
+  display: inline-block;
+  width: 50%;
+}
