@@ -1,0 +1,16 @@
+.first {
+  width: 200px;
+  height: 100px;
+  background-color: purple;
+  transition-duration: 2s;
+  /* transition-delay: 2s; */
+  margin: 10px;
+  text-align: center;
+  color: purple;
+}
+
+.first:hover {
+  height: 200px;
+  width: 600px;
+  background-color: green;
+}

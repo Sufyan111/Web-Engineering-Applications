@@ -1,0 +1,8 @@
+.overflow {
+  background-color: rgb(80, 10, 232);
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  /* overflow: auto;
+  white-space: nowrap; */
+}
