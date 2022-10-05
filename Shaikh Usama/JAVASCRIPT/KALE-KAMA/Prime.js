@@ -1,7 +1,16 @@
 const PrimeNumber = (num) => {
-  num % 1 == 0 || num % num == 0
-    ? console.log("It's a prime number")
-    : console.log("It's not a prime number");
+  for (var i = 2; i <= num; i++) {
+    if (num % i == 0) {
+      console.log("It's not a prime number");
+      break;
+    } else {
+      console.log("It's a prime number");
+      break;
+    }
+  }
 };
 
-PrimeNumber(192);
+PrimeNumber(89);
+PrimeNumber(88);
+PrimeNumber(87);
+PrimeNumber(29);

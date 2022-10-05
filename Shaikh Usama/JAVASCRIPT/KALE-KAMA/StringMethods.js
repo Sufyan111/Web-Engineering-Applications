@@ -1,0 +1,21 @@
+var istring = "The quick brown fox jumps over the lazy dog";
+// console.log("Length Method -->", istring.length);
+// console.log("Slice Method -->", istring.slice(0, 9));
+// console.log("SubString Method -->", istring.substring(10, 19));
+// console.log("SubStr Method -->", istring.substr(20, 5));
+// var newIString = istring.replace("fox", "dog");
+// console.log("Replace Method -->", newIString);
+
+// console.log("toUpperCase Method -->", istring.toUpperCase());
+// console.log("toLowerCase Method -->", istring.toLowerCase());
+// console.log("concat Method -->", istring.concat(" ", newIString));
+// console.log("Trim Method -->", istring.trim());
+// console.log("trimStart Method -->", istring.trimStart());
+// console.log("trimEnd Method -->", istring.trimEnd());
+// console.log("PadStart Method -->", istring.padStart(4, "X"));
+// console.log("PadEnd Method -->", istring.padEnd(4, "X"));
+// console.log("CharAt Method -->", istring.charAt(16));
+// console.log("CharCodeAt Method -->", istring.charCodeAt(16));
+// console.log("Property Access -->", istring[16]);
+// console.log("split Access -->", istring.split(" "));
+console.log("IndexOf-->", istring.indexOf("f"));
