@@ -21,7 +21,7 @@
 // Curved Surface Area Of Cylinder                      rh                      2pi rh
 // Total Surface Area Of Cube                           a                       6 a**2
 
-const areaPeriVol = (shape, type, a, b = 0, c = 0) => {
+const areaPeriVol = (shape, type, a, b, c) => {
   // AAAAARRRRRRRRRREEEEEEEEEEEEEEEEEAAAAAAAAAAAAAAA
   if (type.toLowerCase() == "area") {
     switch (shape.toLowerCase()) {
