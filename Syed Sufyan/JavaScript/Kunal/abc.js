@@ -22,6 +22,7 @@
 // Total Surface Area Of Cube                           a                       6 a**2
 
 const areaPeriVol = (shape, type, a, b, c) => {
+  t1 = performance.now();
   // AAAAARRRRRRRRRREEEEEEEEEEEEEEEEEAAAAAAAAAAAAAAA
   if (type.toLowerCase() == "area") {
     switch (shape.toLowerCase()) {
@@ -104,6 +105,9 @@ const areaPeriVol = (shape, type, a, b, c) => {
     return 6 * a ** 2;
 
   let error = "Please check the input paramaters";
+
+  t2 = performance.now();
+  console.log(t2 - t1);
   return error;
 };
 console.log(areaPeriVol("cube", "total surface area", 5, 8));
