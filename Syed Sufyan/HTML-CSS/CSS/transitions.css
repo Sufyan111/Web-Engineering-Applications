@@ -1,0 +1,22 @@
+.first{
+    width: 200px;
+    height: 100px;
+    background-color: teal;
+    transition-duration: 2s;
+    color: teal;
+    /* transition-delay: 2s; */
+    transition-property: all;
+    display: flex;    
+    justify-content: space-around;
+}
+
+.first:hover{
+    width: 600px;
+    height: 250px;
+    color: red;
+    background-color: purple;
+}
+
+h1{
+    margin: auto;
+}

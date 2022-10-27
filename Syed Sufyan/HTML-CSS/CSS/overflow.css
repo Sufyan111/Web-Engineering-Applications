@@ -1,0 +1,7 @@
+div{
+    background-color:#A7D2CB  ;
+    /* height: 300px; */
+    /* width: 300px;l */
+    overflow: auto;
+    white-space: nowrap;
+}

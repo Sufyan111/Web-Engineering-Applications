@@ -1,0 +1,33 @@
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p::before{
+    content: "Hello" ;
+    background-color: tomato;
+}
+
+p::after{
+    content: "Bye";
+    color: green;
+    background-color: darkgrey;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p::selection{
+    background-color: yellow;
+    color: brown;
+    cursor: pointer;
+
+}
+
+::marker{
+    color: crimson;
+}

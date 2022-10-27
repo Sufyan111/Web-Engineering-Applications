@@ -1,0 +1,40 @@
+.parent{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    position: relative;
+    margin: auto;
+}
+
+.child{
+    width: 25px;
+    height: 25px;
+    background-color: gainsboro;
+}
+
+.one{
+    position: absolute;
+    margin: 10px;
+}
+.two{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+}
+.three{
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+.four{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.five{
+    position: absolute;
+    top: 87.5px;
+    left: 87.5px;
+}

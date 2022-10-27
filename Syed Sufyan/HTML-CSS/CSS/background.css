@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+.parent{
+    background-color: #D8D8D8;
+    background-position: center ;
+    height:500px;
+    width: 100%;
+    /* background-size: contain;    */
+    background-repeat: no-repeat;
+    background-image: url(../Assets/images.jpg);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    z-index: 5;
+}
+
+.child1{
+    background-color:#F5EDDC;
+    height: 600px;
+    width: 100%;
+    background-image: url(../Assets/download.jpg);
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    border: 25px solid #16213E;
+}
+.child2{
+    background-color:#16213E;
+    color: white`;
+    height: 600px;
+    width: 100%;
+    background-image: url(../Assets/images\ \(1\).jpg);
+    background-attachment: fixed;
+    background-position:  center;
+    background-repeat: no-repeat;
+    border: 25px solid #F5EDDC;
+}

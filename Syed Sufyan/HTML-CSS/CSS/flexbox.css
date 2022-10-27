@@ -1,0 +1,17 @@
+.parent{
+    background-color: slategrey;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.child{
+    background-color: black;
+    width: 23%;
+    height: 400px;
+    margin: 2%;
+    font-size: xx-large;
+    color: wheat;
+    text-align: center;
+}   

@@ -1,0 +1,107 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(134, 169, 234);
+}
+
+a {
+    line-height: 100px;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main {
+    background-color: gold;
+    text-align: center;
+}
+
+.left {
+    background-color: darkmagenta;
+    width: 20%;
+    height: 800px;
+    margin: 10px;
+    float: left;
+}
+
+.center {
+    background-color: thistle;
+    width: 55%;
+    height: 800px;
+    margin: 10px;
+    float: left;
+}
+
+.right {
+    background-color: darkmagenta;
+    width: 20%;
+    height: 800px;
+    margin: 10px;
+    float: left;
+}
+
+.cardParent{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 23%;
+    height: 200px;
+    background-color: black;
+    margin: 5px;
+}
+
+@media screen and (max-width : 900px) {
+    .navBar {
+        height: auto;
+    }
+
+    a {
+        display: block;
+        line-height: 25px;
+        padding: 10px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .left, .right, .center {
+        width: 80%;
+        height: 400px;
+    }
+
+    .card{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        width: 80%;
+    }    
+}
+
+@media print {
+    button, a{
+        display: none;
+    }
+
+    nav::after{
+        content: "Default";
+    }
+
+    table{
+        margin: 20px;
+        scale: 2;
+    }
+}
