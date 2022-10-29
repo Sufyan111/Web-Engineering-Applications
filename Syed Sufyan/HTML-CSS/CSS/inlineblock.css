@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+.block-one{
+    display: inline;
+    background-color: antiquewhite;
+}
+
+.block-two{
+    display: inline-block;
+    background-color: salmon;
+}
+
+.inline-one{
+    display: block;
+    background-color:antiquewhite;
+}
+
+.inline-two{
+    display: inline-block;
+    background-color:salmon+++++++++++++++++;
+}

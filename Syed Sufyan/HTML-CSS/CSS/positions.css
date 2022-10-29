@@ -1,0 +1,45 @@
+.parents{
+    width: 800px;
+    height: 1200px;
+    background-color: #E3C770;
+    /* margin: 20px; */
+    position: relative  ;
+}
+
+.third{
+    background-color: #C98474;
+    
+}
+
+.one{
+    width: 200px;
+    height: 350px;
+    background-color: red;
+}
+
+.two{
+    width: 400px;
+    height: 350px;
+    background-color: green;
+    position: sticky;
+    /* margin-left: 500px; */
+    top: 50px;` 
+    left: 50%;
+    /* right: 25px; */
+    z-index: 2;
+}
+
+.three{
+    width: 600px;
+    height: 350px;
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+}
+
+/* Static position canot have
+        -Top
+        -Left
+        -Bottom
+        -Right
+        -Z-Index */

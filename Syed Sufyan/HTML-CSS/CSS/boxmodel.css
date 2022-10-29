@@ -1,0 +1,20 @@
+body{
+background-color:wheat;
+}
+
+.External-Div{
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: white;    
+    display: inline-block;
+    padding: 200px;
+    padding-right: 20px;
+    border: darkolivegreen 10px;
+    border-style: dotted groove dashed solid;
+    border-width: 25px;
+    margin: 20px;
+}
+
+p{
+    text-align: justify;
+}

@@ -1,0 +1,59 @@
+.navBar{
+    background-color: red;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    padding: 0 25px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 25px;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.carousel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+img{
+    height: 250px;
+}
+
+.carouselText{
+    font-size: xx-large;
+}
+
+.cardContainer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: antiquewhite;
+    width: 23%;
+    height: 200px;
+    margin: 5px;
+}
+
+@media screen and (max-w) {
+    
+}

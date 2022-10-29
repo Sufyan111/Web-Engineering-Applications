@@ -1,0 +1,25 @@
+.link{
+    text-decoration-line: none;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.one:link{
+    color: green;
+}
+
+.two:visited{
+    color: brown;
+}
+
+.three:hover{
+    color: coral;
+}
+
+.four:active{
+    color: black;
+}
+
+p:nth-child(odd){
+    background-color: salmon;
+}
